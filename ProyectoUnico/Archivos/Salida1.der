@@ -1,0 +1,37 @@
+{
+CONJ: letra->a~z; 
+CONJ: numero->1~9; 
+
+ExpReg1->  . {digito} ? . \?.\? + {digito}; 
+ExpresionReg2->  . {letra} * | \?_\? | {letra} {digito}; 
+ExpReg3->  {digito} ?; 
+
+%%%%
+ExpReg1:"000"; 
+ExpReg1:"115"; 
+ExpReg1:"2210"; 
+ExpReg1:"3315"; 
+ExpReg1:"4420"; 
+ExpReg1:"5525"; 
+ExpReg1:"6630"; 
+ExpReg1:"7735"; 
+ExpReg1:"8840"; 
+ExpReg1:"9945"; 
+ExpresionReg2:"11"; 
+ExpresionReg2:"22"; 
+ExpresionReg2:"33"; 
+ExpresionReg2:"44"; 
+ExpresionReg2:"55"; 
+ExpReg3:"0"; 
+ExpReg3:"1"; 
+ExpReg3:"2"; 
+ExpReg3:"3"; 
+ExpReg3:"4"; 
+ExpReg3:"5"; 
+ExpReg3:"6"; 
+ExpReg3:"7"; 
+ExpReg3:"8"; 
+ExpReg3:"9"; 
+ExpReg3:"10"; 
+
+}

@@ -1,0 +1,35 @@
+{
+CONJ: letrilla->a~n; 
+CONJ: numerillo->1~5; 
+CONJ: mayus->A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z; 
+CONJ: sig->!~#; 
+CONJ: minus->a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z; 
+
+ExpresionR1->  . {digito} ? . \?.\? + {digito}; 
+ExpresionRegularrrr->  . {digito} ? . \?.\? + {digito}; 
+ExpresionR2->  . {letra} * | \?_\? | {letra} {digito}; 
+ExpresionR3->  {letra} ?; 
+
+%%%%
+ExpresionR1:"000"; 
+ExpresionR1:"115"; 
+ExpresionR1:"2210"; 
+ExpresionR1:"3315"; 
+ExpresionR2:"Caracter_a1"; 
+ExpresionR2:"Caracter_a1"; 
+ExpresionR2:"Caracter_a1"; 
+ExpresionR2:"Caracter_a1"; 
+ExpresionR2:"Caracter_a1"; 
+ExpresionR3:"me repito..0 , "; 
+ExpresionR3:"me repito..1 , "; 
+ExpresionR3:"me repito..2 , "; 
+ExpresionR3:"me repito..3 , "; 
+ExpresionR3:"me repito..4 , "; 
+ExpresionR3:"me repito..5 , "; 
+ExpresionR3:"me repito..6 , "; 
+ExpresionR3:"me repito..7 , "; 
+ExpresionR3:"me repito..8 , "; 
+ExpresionR3:"me repito..9 , "; 
+ExpresionR3:"me repito..10 , "; 
+
+}
